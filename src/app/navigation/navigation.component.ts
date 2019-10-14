@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Observable } from 'rxjs';
-
-
+import { Observable } from 'rxjs'; 
 @Component({
   selector: 'app-navigation',
   templateUrl: './navigation.component.html',
@@ -19,6 +17,7 @@ export class NavigationComponent implements OnInit {
     this.isCollapsed = !this.isCollapsed;
   }
   ngOnInit() {
+
 
   }
 
