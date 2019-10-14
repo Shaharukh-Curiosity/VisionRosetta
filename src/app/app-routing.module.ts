@@ -21,9 +21,7 @@ const routes: Routes = [
   {path: 'portfolio', component: PortfolioHomeComponent},
   
   {path: 'portfolio/online-preparation', component: OnlinePreparationComponent},
-
-   
-
+ 
   {path: 'support', component: SupportComponent}, 
 
   {path: 'nmap', component: NmapComponent},
