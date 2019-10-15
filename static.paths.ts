@@ -1,5 +1,8 @@
 export const ROUTES = [
   '/',
-  '/lazy',
-  '/lazy/nested'
+  '/ubuntu_installation-19-04',
+  '/nodejs_installation',
+  '/openssh',
+  '/putty',
+  '/nmap'
 ];
