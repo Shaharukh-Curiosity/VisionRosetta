@@ -1,7 +1,11 @@
 import { Component, OnInit } from '@angular/core';
+<<<<<<< HEAD
 import { Observable } from 'rxjs';
 
 
+=======
+import { Observable } from 'rxjs'; 
+>>>>>>> dc7ca8caa9759d4a9def25682707f917f8e9a75e
 @Component({
   selector: 'app-navigation',
   templateUrl: './navigation.component.html',
@@ -20,6 +24,10 @@ export class NavigationComponent implements OnInit {
   }
   ngOnInit() {
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> dc7ca8caa9759d4a9def25682707f917f8e9a75e
   }
 
 

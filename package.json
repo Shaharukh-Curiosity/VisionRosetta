@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "exam-preparation",
+=======
+  "name": "TechBlog",
+>>>>>>> dc7ca8caa9759d4a9def25682707f917f8e9a75e
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -8,8 +12,21 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
+<<<<<<< HEAD
     "e2e": "ng e2e"
   },
+=======
+    "e2e": "ng e2e",
+    "build:client-and-server-bundles": "ng build --prod && ng run TechBlog:server:production",
+    "build:prerender": "npm run build:client-and-server-bundles && npm run compile:server && npm run generate:prerender",
+    "build:ssr": "npm run build:client-and-server-bundles && npm run compile:server",
+    "compile:server": "tsc -p server.tsconfig.json",
+    "generate:prerender": "cd dist && node prerender",
+    "serve:prerender": "cd dist/browser && http-server",
+    "serve:ssr": "node dist/server"
+  },
+
+>>>>>>> dc7ca8caa9759d4a9def25682707f917f8e9a75e
   "private": true,
   "dependencies": {
     "@angular/animations": "^8.1.1",
@@ -21,21 +38,39 @@
     "@angular/material": "^8.0.2",
     "@angular/platform-browser": "~8.0.0",
     "@angular/platform-browser-dynamic": "~8.0.0",
+<<<<<<< HEAD
     "@angular/router": "~8.0.0",
     "@mobiscroll/angular-lite": "^4.7.2",
     "@ng-bootstrap/ng-bootstrap": "^4.2.1",
     "angular-cli-ghpages": "^0.6.0-rc.2",
     "angularx-social-login": "^1.2.7",
+=======
+    "@angular/platform-server": "^8.2.10",
+    "@angular/router": "~8.0.0",
+    "@angular/http": "7.1.4",
+    "@nguniversal/common": "^6.0.0",
+    "@mobiscroll/angular-lite": "^4.7.2",
+    "@ng-bootstrap/ng-bootstrap": "^4.2.1",
+    "@nguniversal/express-engine": "^8.1.1",
+    "@nguniversal/module-map-ngfactory-loader": "^8.1.1",
+>>>>>>> dc7ca8caa9759d4a9def25682707f917f8e9a75e
     "bootstrap": "^4.0.0-beta",
     "cookie-parser": "^1.4.4",
     "core-js": "^2.5.4",
     "gh-pages": "^2.1.1",
+<<<<<<< HEAD
     "hammerjs": "^2.0.8",
     "jquery": "^3.4.1",
     "ng-flash-messages": "^0.3.0",
     "ngx-countdown": "^3.2.0",
     "ngx-countdown-timer": "^0.1.9",
     "ngx-toastr": "^10.0.4",
+=======
+    "express": "^4.15.2",
+    "reflect-metadata": "^0.1.10",
+    "hammerjs": "^2.0.8",
+    "jquery": "^3.4.1",
+>>>>>>> dc7ca8caa9759d4a9def25682707f917f8e9a75e
     "popper": "^1.0.1",
     "popper.js": "^1.15.0",
     "rxjs": "~6.5.2",
@@ -61,6 +96,12 @@
     "protractor": "~5.4.0",
     "ts-node": "~7.0.0",
     "tslint": "~5.11.0",
+<<<<<<< HEAD
     "typescript": "~3.4.5"
+=======
+    "ts-loader": "^4.2.0",
+    "typescript": "~3.4.5",
+    "http-server": "^0.10.0"
+>>>>>>> dc7ca8caa9759d4a9def25682707f917f8e9a75e
   }
 }

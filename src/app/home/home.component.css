@@ -3,15 +3,27 @@ body{
   padding:0%;
   margin:0%;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> dc7ca8caa9759d4a9def25682707f917f8e9a75e
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   height:100%;
+<<<<<<< HEAD
 
 }
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+=======
+  
+}
+
+.card:hover {
+background-color:purple;
+>>>>>>> dc7ca8caa9759d4a9def25682707f917f8e9a75e
 }
 
 h4{
@@ -20,6 +32,21 @@ h4{
 
 
 }
+<<<<<<< HEAD
+=======
+h6{
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  padding:22%
+  
+}
+a.custom-card,
+a.custom-card:hover {
+  color: inherit;
+} 
+>>>>>>> dc7ca8caa9759d4a9def25682707f917f8e9a75e
 
 .container{
   margin-top:10%;
@@ -29,3 +56,10 @@ p{
   padding:2%;
   margin:2%;
 }
+<<<<<<< HEAD
+=======
+table{
+  padding:2%;
+  margin:25;
+}
+>>>>>>> dc7ca8caa9759d4a9def25682707f917f8e9a75e

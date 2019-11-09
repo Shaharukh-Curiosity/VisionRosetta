@@ -10,3 +10,23 @@ h4,span,h6{
   font-family: 'Hepta Slab', serif;
 
 }
+<<<<<<< HEAD
+=======
+
+td{
+  padding:4%;
+  margin:4%;
+}
+a{
+  padding:2%;
+}
+.footer {
+  
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#273238;
+  color: white;
+  text-align: center;
+}
+>>>>>>> dc7ca8caa9759d4a9def25682707f917f8e9a75e
