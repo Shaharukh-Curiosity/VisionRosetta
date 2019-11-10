@@ -1,16 +1,14 @@
-<<<<<<< HEAD
-=======
  .container{
      padding-top: 100px;
  }
 
->>>>>>> dc7ca8caa9759d4a9def25682707f917f8e9a75e
+
 h6{
     font-family: 'Hepta Slab', serif;
   
    }
 
-<<<<<<< HEAD
+
 body{
     padding:0%;
     margin:0%;
@@ -23,7 +21,6 @@ body{
 li{
     list-style: none;
 } 
-=======
    span,p{
     font-family: 'Roboto', sans-serif;
 font-family: 'Source Sans Pro', sans-serif;
@@ -45,4 +42,4 @@ img{
     width:70%;
     height:70%;
 }
->>>>>>> dc7ca8caa9759d4a9def25682707f917f8e9a75e
+

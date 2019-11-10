@@ -3,11 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-<<<<<<< HEAD
     "Exam-Preparation": {
-=======
-    "TechBlog": {
->>>>>>> dc7ca8caa9759d4a9def25682707f917f8e9a75e
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -17,41 +13,25 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-<<<<<<< HEAD
-            "outputPath": "dist/Exam-Preparation",
-=======
             "outputPath": "dist/browser",
->>>>>>> dc7ca8caa9759d4a9def25682707f917f8e9a75e
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "src/tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-<<<<<<< HEAD
-              "src/assets"
-=======
               "src/sitemap.xml",
               "src/assets"
               
->>>>>>> dc7ca8caa9759d4a9def25682707f917f8e9a75e
             ],
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css",
-<<<<<<< HEAD
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "node_modules/ngx-toastr/toastr.css"
+
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.slim.min.js"
-=======
-              "node_modules/bootstrap/dist/css/bootstrap.min.css"
-            
-            ],
-            "scripts": [
-               
->>>>>>> dc7ca8caa9759d4a9def25682707f917f8e9a75e
             ]
           },
           "configurations": {
@@ -75,11 +55,7 @@
                 {
                   "type": "initial",
                   "maximumWarning": "2mb",
-<<<<<<< HEAD
                   "maximumError": "5mb"
-=======
-                  "maximumError": "10mb"
->>>>>>> dc7ca8caa9759d4a9def25682707f917f8e9a75e
                 }
               ]
             }
@@ -88,30 +64,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-<<<<<<< HEAD
             "browserTarget": "Exam-Preparation:build"
           },
           "configurations": {
             "production": {
               "browserTarget": "Exam-Preparation:build:production"
-=======
-            "browserTarget": "TechBlog:build"
-          },
-          "configurations": {
-            "production": {
-              "browserTarget": "TechBlog:build:production"
->>>>>>> dc7ca8caa9759d4a9def25682707f917f8e9a75e
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-<<<<<<< HEAD
             "browserTarget": "Exam-Preparation:build"
-=======
-            "browserTarget": "TechBlog:build"
->>>>>>> dc7ca8caa9759d4a9def25682707f917f8e9a75e
           }
         },
         "test": {
@@ -144,7 +108,6 @@
             ]
           }
         },
-<<<<<<< HEAD
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
           "options": {}
@@ -152,31 +115,6 @@
       }
     },
     "Exam-Preparation-e2e": {
-=======
-
-        "server": {
-          "builder": "@angular-devkit/build-angular:server",
-          "options": {
-            "outputPath": "dist/server",
-            "main": "src/main.server.ts",
-            "tsConfig": "src/tsconfig.server.json"
-          },
-          "configurations": {
-            "production": {
-              "fileReplacements": [
-                {
-                  "replace": "src/environments/environment.ts",
-                  "with": "src/environments/environment.prod.ts"
-                }
-              ]
-            }
-          }
-        }
-        
-      }
-    },
-    "TechBlog-e2e": {
->>>>>>> dc7ca8caa9759d4a9def25682707f917f8e9a75e
       "root": "e2e/",
       "projectType": "application",
       "prefix": "",
@@ -185,19 +123,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-<<<<<<< HEAD
             "devServerTarget": "Exam-Preparation:serve"
           },
           "configurations": {
             "production": {
               "devServerTarget": "Exam-Preparation:serve:production"
-=======
-            "devServerTarget": "TechBlog:serve"
-          },
-          "configurations": {
-            "production": {
-              "devServerTarget": "TechBlog:serve:production"
->>>>>>> dc7ca8caa9759d4a9def25682707f917f8e9a75e
             }
           }
         },
@@ -213,9 +143,5 @@
       }
     }
   },
-<<<<<<< HEAD
   "defaultProject": "Exam-Preparation"
-=======
-  "defaultProject": "TechBlog"
->>>>>>> dc7ca8caa9759d4a9def25682707f917f8e9a75e
 }

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {ScrolltopService} from '../../scrolltop.service';
+
 import {Meta, Title} from '@angular/platform-browser';
 
 @Component({
@@ -9,12 +9,12 @@ import {Meta, Title} from '@angular/platform-browser';
 })
 export class PuttyComponent implements OnInit {
 
-  constructor(private scrolltop: ScrolltopService, private meta: Meta, private titleservice: Title) {
+  constructor(private meta: Meta, private titleservice: Title) {
 
    }
 
   ngOnInit() {
-    this.scrolltop.setScrollTop();
+    
 
     this.titleservice.setTitle('Putty Windows');
     this.meta.addTag({

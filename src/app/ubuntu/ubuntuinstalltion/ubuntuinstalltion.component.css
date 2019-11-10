@@ -1,7 +1,6 @@
 .container{
-<<<<<<< HEAD
+
 padding-top:80px;
-=======
 padding-top:100px;
 margin-top: auto;
 margin-bottom: auto;
@@ -12,32 +11,26 @@ margin-bottom: auto;
 body{
     padding:0%;
     margin:0%;
->>>>>>> dc7ca8caa9759d4a9def25682707f917f8e9a75e
+
 }
 img{
     width:70%;
     height:70%;
 }
-<<<<<<< HEAD
+
 
 mat-card{
 padding:2%;
 margin:2%;
 font-family: 'Roboto Slab', serif;
-
-=======
  
- 
-
+}
 span,p{
     font-family: 'Roboto', sans-serif;
 font-family: 'Source Sans Pro', sans-serif;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Open Sans', sans-serif;
-
-
-    Font-weight: 400;
-
+ Font-weight: 400;
     font-size: 18px;
    
 }
@@ -45,5 +38,5 @@ font-family: 'Open Sans', sans-serif;
 tr{
     padding:5%;
     margin:5%;
->>>>>>> dc7ca8caa9759d4a9def25682707f917f8e9a75e
+
 }

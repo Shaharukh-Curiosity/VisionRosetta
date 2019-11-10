@@ -1,9 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-<<<<<<< HEAD
-=======
 import {Meta, Title} from '@angular/platform-browser';
->>>>>>> dc7ca8caa9759d4a9def25682707f917f8e9a75e
-
 import {Router} from '@angular/router';
 import { Observable } from 'rxjs';
 @Component({
@@ -15,17 +11,7 @@ import { Observable } from 'rxjs';
 export class HomeComponent implements OnInit {
 
   isLoggedIn$: Observable<boolean>;
-
-<<<<<<< HEAD
-  constructor(private router: Router  ) { }
-
-  ngOnInit() {
-
-
-  }
-
-
-=======
+  
   constructor(private router: Router, private meta: Meta, private titleservice: Title) { }
 
   ngOnInit() {
@@ -37,5 +23,5 @@ export class HomeComponent implements OnInit {
  
   }
  
->>>>>>> dc7ca8caa9759d4a9def25682707f917f8e9a75e
+
 }
