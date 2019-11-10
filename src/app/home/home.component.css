@@ -41,7 +41,8 @@ a.custom-card:hover {
 
 
 .container{
-  margin-top:10%;
+  padding-top:80px;
+  text-align: center;
 }
 
 p{

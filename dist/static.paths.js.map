@@ -1,1 +1,1 @@
-{"version":3,"file":"static.paths.js","sourceRoot":"","sources":["../static.paths.ts"],"names":[],"mappings":";;AAAa,QAAA,MAAM,GAAG;IACpB,GAAG;IACH,OAAO;IACP,cAAc;CACf,CAAC"}
+{"version":3,"file":"static.paths.js","sourceRoot":"","sources":["../static.paths.ts"],"names":[],"mappings":";;AAAa,QAAA,MAAM,GAAG;IACpB,GAAG;IACH,4BAA4B;IAC5B,sBAAsB;IACtB,UAAU;IACV,QAAQ;IACR,OAAO;CACR,CAAC"}

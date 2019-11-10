@@ -17,6 +17,7 @@
     "serve:prerender": "cd dist/browser && http-server",
     "serve:ssr": "node dist/server"
   },
+
   "private": true,
   "dependencies": {
     "@angular/animations": "^8.1.1",

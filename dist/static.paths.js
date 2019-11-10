@@ -2,7 +2,10 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.ROUTES = [
     '/',
-    '/lazy',
-    '/lazy/nested'
+    '/ubuntu_installation-19-04',
+    '/nodejs_installation',
+    '/openssh',
+    '/putty',
+    '/nmap'
 ];
 //# sourceMappingURL=static.paths.js.map

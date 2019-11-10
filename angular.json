@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Exam-Preparation": {
+    "TechBlog": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -27,11 +27,11 @@
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css",
-              "node_modules/bootstrap/dist/css/bootstrap.min.css",
-
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
+            
             ],
             "scripts": [
-              "node_modules/jquery/dist/jquery.slim.min.js"
+               
             ]
           },
           "configurations": {
@@ -55,7 +55,7 @@
                 {
                   "type": "initial",
                   "maximumWarning": "2mb",
-                  "maximumError": "5mb"
+                  "maximumError": "10mb"
                 }
               ]
             }
@@ -64,18 +64,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "Exam-Preparation:build"
+            "browserTarget": "TechBlog:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "Exam-Preparation:build:production"
+              "browserTarget": "TechBlog:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Exam-Preparation:build"
+            "browserTarget": "TechBlog:build"
           }
         },
         "test": {
@@ -108,13 +108,29 @@
             ]
           }
         },
-        "deploy": {
-          "builder": "angular-cli-ghpages:deploy",
-          "options": {}
+
+        "server": {
+          "builder": "@angular-devkit/build-angular:server",
+          "options": {
+            "outputPath": "dist/server",
+            "main": "src/main.server.ts",
+            "tsConfig": "src/tsconfig.server.json"
+          },
+          "configurations": {
+            "production": {
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.prod.ts"
+                }
+              ]
+            }
+          }
         }
+        
       }
     },
-    "Exam-Preparation-e2e": {
+    "TechBlog-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "prefix": "",
@@ -123,11 +139,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "Exam-Preparation:serve"
+            "devServerTarget": "TechBlog:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "Exam-Preparation:serve:production"
+              "devServerTarget": "TechBlog:serve:production"
             }
           }
         },
@@ -143,5 +159,5 @@
       }
     }
   },
-  "defaultProject": "Exam-Preparation"
+  "defaultProject": "TechBlog"
 }
