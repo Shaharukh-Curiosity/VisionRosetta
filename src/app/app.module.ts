@@ -68,19 +68,13 @@ import {ScrolltopService} from './scrolltop.service';
     MatTableModule,
     MatDialogModule,
     MatSnackBarModule
-  
   ],
   providers: [
-    
     {
       provide: HTTP_INTERCEPTORS,
       useClass: JwtvalidInterceptor,
       multi: true
     }
-
-
-     
-
   ],
   bootstrap: [AppComponent]
 })

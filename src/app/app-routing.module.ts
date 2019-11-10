@@ -14,7 +14,6 @@ import {PuttyComponent } from './home_files/putty/putty.component';
 
 const routes: Routes = [
 
-
   {path : '', component: HomeComponent},
 
   {path: 'portfolio', component: PortfolioHomeComponent},
@@ -47,7 +46,9 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes,{
+    scrollPositionRestoration:'enabled'
+  })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
