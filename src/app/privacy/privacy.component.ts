@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {ScrolltopService} from '../../scrolltop.service';
+
 @Component({
   selector: 'app-privacy',
   templateUrl: './privacy.component.html',
@@ -7,10 +7,9 @@ import {ScrolltopService} from '../../scrolltop.service';
 })
 export class PrivacyComponent implements OnInit {
 
-  constructor(private scrolltop: ScrolltopService) { }
+  constructor() { }
 
   ngOnInit() {
-    this.scrolltop.setScrollTop();
   }
 
 }

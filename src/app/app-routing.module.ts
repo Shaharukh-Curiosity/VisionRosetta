@@ -9,8 +9,9 @@ import {UbuntuinstalltionComponent} from './ubuntu/ubuntuinstalltion/ubuntuinsta
 import {NmapComponent} from './home_files/nmap/nmap.component';
 import {InstallnodejsubuntuComponent} from './nodejs/installnodejsubuntu/installnodejsubuntu.component';
 import {OpensshComponent} from './home_files/openssh/openssh.component';
-import {PrivacyComponent} from './privacy/privacy/privacy.component';
+import {PrivacyComponent} from  './privacy/privacy.component';
 import {PuttyComponent } from './home_files/putty/putty.component';
+import{SitemapComponent} from './sitemap/sitemap.component';
 
 const routes: Routes = [
 
@@ -39,6 +40,8 @@ const routes: Routes = [
   {path: 'privacy', component: PrivacyComponent},
 
   {path: 'putty', component: PuttyComponent},
+
+  {path: 'sitemap', component: SitemapComponent},
 
   {path: '**', component: ErrorComponent},
 

@@ -21,10 +21,10 @@ import { HomeComponent } from './home/home.component';
 import { UbuntuinstalltionComponent } from './ubuntu/ubuntuinstalltion/ubuntuinstalltion.component';
 import { InstallnodejsubuntuComponent } from './nodejs/installnodejsubuntu/installnodejsubuntu.component';
 import { OpensshComponent } from './home_files/openssh/openssh.component';
-import { PrivacyComponent } from './privacy/privacy/privacy.component';
+import { PrivacyComponent } from './privacy/privacy.component';
 import { PuttyComponent } from './home_files/putty/putty.component';
 import {ScrolltopService} from './scrolltop.service';
-
+import{SitemapComponent} from './sitemap/sitemap.component';
 
 
 
@@ -46,7 +46,8 @@ import {ScrolltopService} from './scrolltop.service';
     InstallnodejsubuntuComponent,
     OpensshComponent,
     PrivacyComponent,
-    PuttyComponent
+    PuttyComponent,
+    SitemapComponent
 
   ],
   imports: [
