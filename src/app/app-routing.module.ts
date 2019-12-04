@@ -12,6 +12,7 @@ import {OpensshComponent} from './home_files/openssh/openssh.component';
 import {PrivacyComponent} from  './privacy/privacy.component';
 import {PuttyComponent } from './home_files/putty/putty.component';
 import{SitemapComponent} from './sitemap/sitemap.component';
+import {AboutusComponent} from './aboutus/aboutus.component';
 
 const routes: Routes = [
 
@@ -42,6 +43,8 @@ const routes: Routes = [
   {path: 'putty', component: PuttyComponent},
 
   {path: 'sitemap', component: SitemapComponent},
+
+  {path:'aboutus', component:AboutusComponent},
 
   {path: '**', component: ErrorComponent},
 

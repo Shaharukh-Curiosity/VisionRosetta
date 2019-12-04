@@ -25,6 +25,7 @@ import { PrivacyComponent } from './privacy/privacy.component';
 import { PuttyComponent } from './home_files/putty/putty.component';
 import {ScrolltopService} from './scrolltop.service';
 import{SitemapComponent} from './sitemap/sitemap.component';
+import { AboutusComponent } from './aboutus/aboutus.component';
 
 
 
@@ -47,7 +48,8 @@ import{SitemapComponent} from './sitemap/sitemap.component';
     OpensshComponent,
     PrivacyComponent,
     PuttyComponent,
-    SitemapComponent
+    SitemapComponent,
+    AboutusComponent
 
   ],
   imports: [
