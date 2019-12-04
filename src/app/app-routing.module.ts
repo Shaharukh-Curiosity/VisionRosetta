@@ -13,6 +13,7 @@ import {PrivacyComponent} from  './privacy/privacy.component';
 import {PuttyComponent } from './home_files/putty/putty.component';
 import{SitemapComponent} from './sitemap/sitemap.component';
 import {AboutusComponent} from './aboutus/aboutus.component';
+import{FeedbackComponent} from './feedback/feedback.component';
 
 const routes: Routes = [
 
@@ -45,6 +46,8 @@ const routes: Routes = [
   {path: 'sitemap', component: SitemapComponent},
 
   {path:'aboutus', component:AboutusComponent},
+
+  {path:'feedback', component:FeedbackComponent},
 
   {path: '**', component: ErrorComponent},
 

@@ -26,6 +26,7 @@ import { PuttyComponent } from './home_files/putty/putty.component';
 import {ScrolltopService} from './scrolltop.service';
 import{SitemapComponent} from './sitemap/sitemap.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
+import { FeedbackComponent } from './feedback/feedback.component';
 
 
 
@@ -49,7 +50,8 @@ import { AboutusComponent } from './aboutus/aboutus.component';
     PrivacyComponent,
     PuttyComponent,
     SitemapComponent,
-    AboutusComponent
+    AboutusComponent,
+    FeedbackComponent
 
   ],
   imports: [
