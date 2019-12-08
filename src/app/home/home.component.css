@@ -2,6 +2,8 @@
 body{
   padding:0%;
   margin:0%;
+  
+ 
 }  
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -16,7 +18,15 @@ body{
 
 }
 
+span,p{
+  font-family: 'Roboto', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+Font-weight: 400;
+  font-size: 15px;
  
+}
 
 h4{
   font-family: 'Roboto Slab', serif;
@@ -32,15 +42,23 @@ h6{
   padding:22%
   
 }
+
+
+a{
+  padding:2%;
+  margin:2%;
+}
 a.custom-card,
 a.custom-card:hover {
   color: inherit;
 } 
 
 
-.container{
+.container-fluid{
   padding-top:80px;
-  text-align: center;
+  width:100%;
+  background-color:#DCDCDC;
+   
 }
 
 p{
