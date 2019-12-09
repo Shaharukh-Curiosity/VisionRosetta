@@ -13,7 +13,9 @@ import {PrivacyComponent} from  './privacy/privacy.component';
 import {PuttyComponent } from './home_files/putty/putty.component';
 import{SitemapComponent} from './sitemap/sitemap.component';
 import {AboutusComponent} from './aboutus/aboutus.component';
-import{FeedbackComponent} from './feedback/feedback.component';
+import{FeedbackComponent} from './feedback/feedback.component'; 
+import{DetectingOpenportComponent} from './ubuntu/Tutorials/detecting-openport/detecting-openport.component';
+import{UbuntuTutHomeComponent } from './ubuntu/ubuntu-tut-home/ubuntu-tut-home.component';
 
 const routes: Routes = [
 
@@ -48,6 +50,11 @@ const routes: Routes = [
   {path:'aboutus', component:AboutusComponent},
 
   {path:'feedback', component:FeedbackComponent},
+ 
+
+  {path:'detecting_openport', component:DetectingOpenportComponent},
+
+  {path:'ubuntu_tutorials', component:UbuntuTutHomeComponent },
 
   {path: '**', component: ErrorComponent},
 

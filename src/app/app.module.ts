@@ -27,6 +27,9 @@ import {ScrolltopService} from './scrolltop.service';
 import{SitemapComponent} from './sitemap/sitemap.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { FeedbackComponent } from './feedback/feedback.component';
+import { TutListComponent } from './ubuntu/Tutorials/tut-list/tut-list.component';
+import { DetectingOpenportComponent } from './ubuntu/Tutorials/detecting-openport/detecting-openport.component';
+import { UbuntuTutHomeComponent } from './ubuntu/ubuntu-tut-home/ubuntu-tut-home.component';
 
 
 
@@ -51,7 +54,10 @@ import { FeedbackComponent } from './feedback/feedback.component';
     PuttyComponent,
     SitemapComponent,
     AboutusComponent,
-    FeedbackComponent
+    FeedbackComponent,
+    TutListComponent,
+    DetectingOpenportComponent,
+    UbuntuTutHomeComponent
 
   ],
   imports: [

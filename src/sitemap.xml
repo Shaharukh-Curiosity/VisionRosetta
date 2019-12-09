@@ -6,5 +6,9 @@
 <url><loc>https://visionrosetta.in/openssh</loc><priority>0.5</priority></url>
 <url><loc>https://visionrosetta.in/putty</loc><priority>0.5</priority></url>
 <url><loc>https://visionrosetta.in/nmap</loc><priority>0.5</priority></url>
+<url><loc>https://visionrosetta.in/detecting_openport</loc><priority>0.5</priority></url>
+<url><loc>https://visionrosetta.in/feedback</loc><priority>0.5</priority></url>
+<url><loc>https://visionrosetta.in/aboutus</loc><priority>0.5</priority></url>
+<url><loc>https://visionrosetta.in/privacy</loc><priority>0.5</priority></url>
 
 </urlset>
