@@ -1,0 +1,25 @@
+.container{
+    padding-top:100px;
+    padding:2%;
+    margin:2%;
+}
+span,p{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    
+    
+
+    Font-weight: 400;
+
+    font-size: 18px;
+    
+
+} h2{
+    padding-top:60px;
+     
+    font-family: 'Poppins', sans-serif;
+
+
+}
