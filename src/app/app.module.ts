@@ -8,12 +8,10 @@ import {MatCardModule, MatInputModule, MatButtonModule, MatRadioModule, MatSnack
    MatGridListModule, MatFormFieldModule, MatCheckboxModule, MatDialogModule,MatMenuModule, MatTableModule} from '@angular/material';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {ReactiveFormsModule} from '@angular/forms';
-
 import {HttpClientModule, HTTP_INTERCEPTORS} from '@angular/common/http';
 import {OnlinePreparationComponent} from './portfolio/online-preparation/online-preparation.component';
 import { PortfolioHomeComponent } from './portfolio/portfolio-home/portfolio-home.component';
 import { ErrorComponent } from './error/error.component';
-import { SupportComponent } from './support/support.component';
 import {JwtvalidInterceptor} from './jwtvalid.interceptor';
 import { NmapComponent } from './home_files/nmap/nmap.component';
 import { FooterComponent } from './footer/footer.component';   
@@ -30,6 +28,7 @@ import { FeedbackComponent } from './feedback/feedback.component';
 import { TutListComponent } from './ubuntu/Tutorials/tut-list/tut-list.component';
 import { DetectingOpenportComponent } from './ubuntu/Tutorials/detecting-openport/detecting-openport.component';
 import { UbuntuTutHomeComponent } from './ubuntu/ubuntu-tut-home/ubuntu-tut-home.component';
+import { NonrootuserComponent } from './ubuntu/Tutorials/nonrootuser/nonrootuser.component';
 
 
 
@@ -42,10 +41,8 @@ import { UbuntuTutHomeComponent } from './ubuntu/ubuntu-tut-home/ubuntu-tut-home
     OnlinePreparationComponent,
     PortfolioHomeComponent,
     ErrorComponent,
-    SupportComponent,
     NmapComponent,
     UbuntuinstalltionComponent,
-    SupportComponent,
     NmapComponent,
     UbuntuinstalltionComponent,
     InstallnodejsubuntuComponent,
@@ -57,7 +54,8 @@ import { UbuntuTutHomeComponent } from './ubuntu/ubuntu-tut-home/ubuntu-tut-home
     FeedbackComponent,
     TutListComponent,
     DetectingOpenportComponent,
-    UbuntuTutHomeComponent
+    UbuntuTutHomeComponent,
+    NonrootuserComponent
 
   ],
   imports: [

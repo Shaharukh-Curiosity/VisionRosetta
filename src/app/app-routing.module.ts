@@ -35,7 +35,7 @@ const routes: Routes = [
  
   {path: 'nmap', component: NmapComponent},
 
-  {path: 'ubuntu_installation-19-04', component: UbuntuinstalltionComponent},
+  {path: 'ubuntu-installation-19-04', component: UbuntuinstalltionComponent},
 
   {path: 'nodejs_installation', component: InstallnodejsubuntuComponent},
 
@@ -51,14 +51,12 @@ const routes: Routes = [
 
   {path:'feedback', component:FeedbackComponent},
  
-
-  {path:'detecting_openport', component:DetectingOpenportComponent},
+  {path:'detecting-open-port', component:DetectingOpenportComponent},
 
   {path:'ubuntu_tutorials', component:UbuntuTutHomeComponent },
 
   {path: '**', component: ErrorComponent},
 
- 
 ];
 
 @NgModule({

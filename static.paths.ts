@@ -4,5 +4,10 @@ export const ROUTES = [
   '/nodejs_installation',
   '/openssh',
   '/putty',
-  '/nmap'
+  '/nmap',
+  '/sitemap',
+  '/aboutus',
+  '/privacy',
+  '/feedback',
+  '/**'
 ];
