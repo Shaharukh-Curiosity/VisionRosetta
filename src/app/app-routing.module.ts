@@ -4,7 +4,6 @@ import { HomeComponent} from './home/home.component';
 import { OnlinePreparationComponent } from './portfolio/online-preparation/online-preparation.component';
 import {PortfolioHomeComponent} from './portfolio/portfolio-home/portfolio-home.component';
 import {ErrorComponent} from './error/error.component'; 
-import {SupportComponent} from './support/support.component';
 import {UbuntuinstalltionComponent} from './ubuntu/ubuntuinstalltion/ubuntuinstalltion.component';
 import {NmapComponent} from './home_files/nmap/nmap.component';
 import {InstallnodejsubuntuComponent} from './nodejs/installnodejsubuntu/installnodejsubuntu.component';
@@ -25,8 +24,6 @@ const routes: Routes = [
  
   {path: 'portfolio/online-preparation', component: OnlinePreparationComponent},
   
-  {path: 'support', component: SupportComponent},
-
   {path: 'nmap', component: NmapComponent},
 
   {path: 'ubuntu_installation', component: UbuntuinstalltionComponent},
