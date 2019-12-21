@@ -1,13 +1,14 @@
 export const ROUTES = [
   '/',
-  '/ubuntu_installation-19-04',
-  '/nodejs_installation',
-  '/openssh',
+  '/ubuntu-19.04-installation',
+  '/ubuntu-nodejs-installation',
+  '/ubuntu-openssh',
   '/putty',
   '/nmap',
   '/sitemap',
   '/aboutus',
   '/privacy',
+  '/ubuntu-tutorials',
   '/feedback',
   '/**'
 ];
