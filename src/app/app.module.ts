@@ -16,19 +16,14 @@ import {JwtvalidInterceptor} from './jwtvalid.interceptor';
 import { NmapComponent } from './home_files/nmap/nmap.component';
 import { FooterComponent } from './footer/footer.component';   
 import { HomeComponent } from './home/home.component';
-import { UbuntuinstalltionComponent } from './ubuntu/ubuntuinstalltion/ubuntuinstalltion.component';
+
 import { InstallnodejsubuntuComponent } from './nodejs/installnodejsubuntu/installnodejsubuntu.component';
 import { OpensshComponent } from './home_files/openssh/openssh.component';
 import { PrivacyComponent } from './privacy/privacy.component';
 import { PuttyComponent } from './home_files/putty/putty.component';
 import {ScrolltopService} from './scrolltop.service';
 import{SitemapComponent} from './sitemap/sitemap.component';
-import { AboutusComponent } from './aboutus/aboutus.component';
-import { FeedbackComponent } from './feedback/feedback.component';
-import { TutListComponent } from './ubuntu/Tutorials/tut-list/tut-list.component';
-import { DetectingOpenportComponent } from './ubuntu/Tutorials/detecting-openport/detecting-openport.component';
-import { UbuntuTutHomeComponent } from './ubuntu/ubuntu-tut-home/ubuntu-tut-home.component';
-import { NonrootuserComponent } from './ubuntu/Tutorials/nonrootuser/nonrootuser.component';
+
 
 
 
@@ -41,21 +36,13 @@ import { NonrootuserComponent } from './ubuntu/Tutorials/nonrootuser/nonrootuser
     OnlinePreparationComponent,
     PortfolioHomeComponent,
     ErrorComponent,
-    NmapComponent,
-    UbuntuinstalltionComponent,
-    NmapComponent,
-    UbuntuinstalltionComponent,
+    NmapComponent, 
+    NmapComponent, 
     InstallnodejsubuntuComponent,
     OpensshComponent,
     PrivacyComponent,
     PuttyComponent,
-    SitemapComponent,
-    AboutusComponent,
-    FeedbackComponent,
-    TutListComponent,
-    DetectingOpenportComponent,
-    UbuntuTutHomeComponent,
-    NonrootuserComponent
+    SitemapComponent,  
 
   ],
   imports: [
