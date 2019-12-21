@@ -11,7 +11,7 @@ const routes: Routes = [
 
   {path:'',loadChildren: './ubuntu/ubuntu.module#UbuntuModule'},
   
-  {path: 'nodejs_installation', component: InstallnodejsubuntuComponent},
+  {path: 'ubuntu-nodejs-installation', component: InstallnodejsubuntuComponent},
   
 ];
 
