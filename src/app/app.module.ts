@@ -12,8 +12,7 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { InstallnodejsubuntuComponent } from './nodejs/installnodejsubuntu/installnodejsubuntu.component';
 
-import {ScrolltopService} from './scrolltop.service';
-import { ServiceWorkerModule } from '@angular/service-worker';
+import {ScrolltopService} from './scrolltop.service'; 
 import { environment } from '../environments/environment'; 
 
 
@@ -43,8 +42,7 @@ import { environment } from '../environments/environment';
     MatMenuModule,
     MatTableModule,
     MatDialogModule,
-    MatSnackBarModule,
-    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
+    MatSnackBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

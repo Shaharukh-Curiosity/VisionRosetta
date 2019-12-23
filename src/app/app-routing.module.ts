@@ -5,7 +5,7 @@ import {InstallnodejsubuntuComponent} from './nodejs/installnodejsubuntu/install
  
 const routes: Routes = [
 
-  {path : '', component: HomeComponent, pathMatch:'full'},
+  {path : '', component: HomeComponent},
  
   {path:'', loadChildren: './lazymodule/lazymodule.module#LazymoduleModule'},
 

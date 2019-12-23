@@ -9,6 +9,5 @@ export const ROUTES = [
   '/aboutus',
   '/privacy',
   '/ubuntu-tutorials',
-  '/feedback',
-  '/**'
+  '/feedback'
 ];
